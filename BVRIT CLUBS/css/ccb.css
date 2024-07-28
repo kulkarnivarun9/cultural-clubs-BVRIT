@@ -1,0 +1,95 @@
+body{
+  height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url();
+background-image: cover;
+background-position: center;
+padding: 0;
+overflow-x: hidden;
+position: relative;
+margin: 0;
+}
+.top a{
+  margin: 0;
+  border: 0;
+  font-family: 'Otomanopee One', sans-serif;
+  line-height:1.5;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  text-align: left;
+  padding:0 15px;
+  text-decoration: none;
+  background-color: black;
+}
+.top{
+  background-color: black;
+}
+
+
+.middle-container  li a {
+  display: block;
+  color: #000;
+  padding: 8px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 15px;
+}
+.middle-container  li a.active {
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+}
+.middle-container{
+  padding-left: 20px;
+}
+.middle-container li a:hover:not(.active) {
+  background-color: #555;
+  color:white;
+}
+.video{
+  padding-left: 50px;
+}
+.mid{
+  text-align: left;
+}
+.events{
+  text-align: left;
+  font-family: 'Encode Sans SC', sans-serif;
+  color: white;
+  word-spacing: 10px;
+
+}
+p{
+  font-family: 'Encode Sans SC', sans-serif;
+  color:white;
+  font-size: 15px;
+  word-spacing: 10px;
+}
+/*.mid ol {
+  font-family: 'Merriweather Sans', sans-serif;
+  color:white;
+  font-size: 25px;
+  word-spacing: 10px;
+}*/
+h2{
+  font-family: 'Encode Sans SC', sans-serif;
+  color:#00ADB5;
+  font-size: 4.625rem;
+  text-align: center;
+  margin:auto;
+
+}
+/*h3{
+  color: #FDF6F0;
+  font-family: 'Noto Sans HK', sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding: 10px 10px;
+}
+h4{
+  color:white;
+  font-family: 'Noto Sans HK', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-size: 25px;
+}*/

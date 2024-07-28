@@ -1,0 +1,116 @@
+body{
+  margin: 0px;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(https://bvrithyderabad.edu.in/wp-content/uploads/2016/12/BVRIT-narsapur-logo-big-1.png);
+  background-size: cover;
+  background-image: cover;
+  background-position: center;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+.container{
+  position: absolute;
+  top: 35%
+  left:24%;
+  right:28%;
+  text-align: center;
+  border: 2px solid ;
+  width: 35%;
+  padding: 15px;
+
+}
+.container h1{
+
+  padding:13px;
+}
+.box{
+  width: 100%;
+  margin: 13px;
+}
+.box input{
+  background: none;
+  width: 75%;
+  font-size: 20px;
+  padding: 5px 10px;
+
+  outline:none;
+  border: none;
+  colour: white;
+  margin: 2px 0px;
+
+}
+.box i{
+  width: 25px;
+  text-align: center;
+  padding: 0 12px;
+}
+.btn{
+  width: 25%;
+  margin: 12px 0;
+  padding: 6px;
+  cursor: pointer;
+}
+h2{
+  margin: 0;
+  font-family: 'Otomanopee One', sans-serif;
+  line-height: 1;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  text-align: center;
+}
+button{
+
+     font-size: 18px;
+     font-weight: bold;
+     background-color: rgb(10, 119, 13);
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     cursor: pointer;
+     width: 50%;
+     opacity: 0.9;
+     border-radius: 10px;
+     text-align: center;
+
+}
+h1{
+    text-align: center;
+
+    font-family: 'Encode Sans SC', sans-serif;
+
+}
+.top-container{
+  background-color:#476072;
+  margin:0px;
+  padding:50px
+}
+label{
+  font-family: 'Encode Sans SC', sans-serif;
+  position: absolute;
+  left: 55px;
+}
+a{
+  font-family: 'Encode Sans SC', sans-serif;
+  position: absolute;
+
+}
+.for{
+  font-family: 'Encode Sans SC', sans-serif;
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  position: absolute;
+  top:75%;
+  left: 50%;
+}
+hr{
+  border: dotted;
+  border-bottom: none;
+  border-width: 5px;
+  width: 8px;
+  border-color: gray;
+}

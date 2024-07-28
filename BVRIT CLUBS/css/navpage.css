@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+padding: 0;
+}
+body{
+  margin: 0;
+  padding:0;
+  border: 0;
+}
+h1{
+  margin: 0;
+  border: 0;
+  font-family: 'Otomanopee One', sans-serif;
+  line-height:0.4;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  text-align: left;
+  padding: 0;
+}
+h2{
+font-family: 'Encode Sans SC', sans-serif;
+  color:#00ADB5;
+  font-size: 4.625rem;
+  text-align: center;
+
+}
+h3{
+  color: #FDF6F0;
+  font-family: 'Noto Sans HK', sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding: 10px 10px;
+}
+h4{
+  color:white;
+  font-family: 'Noto Sans HK', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+.top{
+  height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(https://bvrithyderabad.edu.in/wp-content/uploads/2016/12/BVRIT-narsapur-logo-big-1.png);
+background-size: cover;
+background-image: cover;
+background-position: center;
+padding: 0;
+overflow-x: hidden;
+position: relative;
+
+}
+.navbar{
+  display: flex;
+  padding: 42px 20px;
+  background: black;
+
+}
+/*.nav-link{
+  flex: 1;
+}
+.nav-link ul {
+  display: inline;
+  margin-left:350px;
+}
+.nav-link ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 25px;
+
+}
+.nav-link ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 13px;
+
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width:0;
+  background: yellow;
+  bottom: -10px;
+  transition: -0.5s;
+  margin: auto;
+  display: block;
+
+
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
+.btn{
+  padding:10px 20px;
+  border: 0;
+  background: yellow;
+  font-weight: bold;
+}
+*/
+body {
+  margin: 0;
+}
+
+.middle-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #B8DFD8;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.middle-container  li a {
+  display: block;
+  color: #000;
+  padding: 8px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 15px;
+
+}
+
+.middle-container  li a.active {
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+}
+
+.middle-container li a:hover:not(.active) {
+  background-color: #555;
+  color:white;
+}
+.mid{
+  text-align: center;
+}
+p{
+  font-family: 'Merriweather Sans', sans-serif;
+  color:white;
+  font-size: 25px;
+  word-spacing: 10px;
+}
+.mid ol {
+  font-family: 'Merriweather Sans', sans-serif;
+  color:white;
+  font-size: 25px;
+  word-spacing: 10px;
+}
